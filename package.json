@@ -225,6 +225,7 @@
   "scripts": {
     "start": "node Backend/server.js",
     "server": "nodemon Backend/server.js"
+    
   },
   "author": "ayush",
   "license": "ISC"
