@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon Backend/server.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix from frontend"
+    "start": "nodemon Backend/server.js"
+   
   },
   "author": "Ayush",
   "license": "ISC",
