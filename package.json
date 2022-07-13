@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon Backend/server.js"
-   
+    "start": "nodemon Backend/server.js",
+   "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Ayush",
   "license": "ISC",
