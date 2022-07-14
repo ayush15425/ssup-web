@@ -101,7 +101,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       }
     });
   });
-  console.log(notification);
 
   const typingHandler = (e) => {
     setNewMessage(e.target.value);
