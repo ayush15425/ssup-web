@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": { "node": "16.16.0"},
   "dependencies": {
     "abbrev": "^1.1.1",
     "accepts": "^1.3.8",
@@ -225,7 +226,7 @@
   "scripts": {
     "start": "node Backend/server.js",
     "server": "nodemon Backend/server.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install ==prefix frontend npm run build --prefix frontend"
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend npm run build --prefix frontend"
     
   },
   "author": "ayush",
